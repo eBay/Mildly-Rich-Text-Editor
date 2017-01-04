@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="EditorToolbarButton">
+        <item name="android:layout_width">@dimen/toggle_button_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/toggle_button_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/toggle_button_horizontal_padding</item>
+    </style>
+
+    <style name="EditorToolbarButton.ToggleButton">
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+    </style>
+
+    <style name="EditorToolbarButton.LeftMostButton">
+        <item name="android:layout_marginRight">@dimen/font_size_btn_compensate_right_margin</item>
+        <item name="android:layout_marginLeft">@dimen/font_size_btn_compensate_left_margin</item>
+    </style>
+
+</resources>

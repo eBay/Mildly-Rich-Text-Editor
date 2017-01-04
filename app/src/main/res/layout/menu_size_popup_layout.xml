@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ToggleButton
+        android:id="@+id/size_ten"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_size_togglebtn"
+        android:button="@android:color/transparent"
+        android:foreground="@drawable/ripple_colored"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
+        android:textColor="#FFFFFF"
+        android:textOff="10"
+        android:textOn="10"/>
+
+    <ToggleButton
+        android:id="@+id/size_fourteen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_size_togglebtn"
+        android:button="@android:color/transparent"
+        android:foreground="@drawable/ripple_colored"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
+        android:textColor="#FFFFFF"
+        android:textOff="14"
+        android:textOn="14"/>
+
+    <ToggleButton
+        android:id="@+id/size_sixteen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_size_togglebtn"
+        android:button="@android:color/transparent"
+        android:foreground="@drawable/ripple_colored"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
+        android:textColor="#FFFFFF"
+        android:textOff="16"
+        android:textOn="16"/>
+
+    <ToggleButton
+        android:id="@+id/size_eighteen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_size_togglebtn"
+        android:button="@android:color/transparent"
+        android:foreground="@drawable/ripple_colored"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
+        android:textColor="#FFFFFF"
+        android:textOff="18"
+        android:textOn="18"/>
+
+    <ToggleButton
+        android:id="@+id/size_twenty_four"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_size_togglebtn"
+        android:button="@android:color/transparent"
+        android:foreground="@drawable/ripple_colored"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
+        android:textColor="#FFFFFF"
+        android:textOff="24"
+        android:textOn="24"/>
+
+    <ToggleButton
+        android:id="@+id/size_thirty_two"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_size_togglebtn"
+        android:button="@android:color/transparent"
+        android:foreground="@drawable/ripple_colored"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
+        android:textColor="#FFFFFF"
+        android:textOff="32"
+        android:textOn="32"/>
+
+    <ToggleButton
+        android:id="@+id/size_forty_eight"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_size_togglebtn"
+        android:button="@android:color/transparent"
+        android:foreground="@drawable/ripple_colored"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
+        android:textColor="#FFFFFF"
+        android:textOff="48"
+        android:textOn="48"/>
+</LinearLayout>

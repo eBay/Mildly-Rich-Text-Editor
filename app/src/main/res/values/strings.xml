@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mildly Rich Text Editor</string>
+    <string name="action_settings">Settings</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="show_html">Reveal HTML</string>
+    <string name="generated_html">Generated HTML</string>
+</resources>

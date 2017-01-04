@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rte_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/size_btn"
+            style="@style/EditorToolbarButton.LeftMostButton"
+            android:button="@drawable/selector_size_btn"
+            app:srcCompat="@drawable/ic_format_size_black_24px"/>
+
+        <ToggleButton
+            android:id="@+id/bold_btn"
+            style="@style/EditorToolbarButton.ToggleButton"
+            android:button="@drawable/bold_selector"/>
+
+        <ToggleButton
+            android:id="@+id/underline_btn"
+            style="@style/EditorToolbarButton.ToggleButton"
+            android:button="@drawable/underline_selector"/>
+
+        <ToggleButton
+            android:id="@+id/italic_btn"
+            style="@style/EditorToolbarButton.ToggleButton"
+            android:button="@drawable/italic_selector"/>
+
+        <ToggleButton
+            android:id="@+id/unordered_list_btn"
+            style="@style/EditorToolbarButton.ToggleButton"
+            android:button="@drawable/unordered_list_selector"/>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
+
