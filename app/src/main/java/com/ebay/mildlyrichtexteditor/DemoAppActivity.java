@@ -18,6 +18,9 @@ import android.widget.ToggleButton;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * This app demonstrates the usage and functionality of the {@link MildlyRichTextEditor}
+ */
 public class DemoAppActivity extends AppCompatActivity {
     private MildlyRichTextEditor editor;
     private TextView htmlTextView;

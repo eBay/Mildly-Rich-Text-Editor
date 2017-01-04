@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">Mildly Rich Text Editor</string>
-    <string name="action_settings">Settings</string>
     <string name="coming_soon">Coming soon!</string>
-    <string name="dismiss">Dismiss</string>
     <string name="show_html">Reveal HTML</string>
     <string name="generated_html">Generated HTML</string>
+    <string name="_10">10</string>
+    <string name="_14">14</string>
+    <string name="_16">16</string>
+    <string name="_18">18</string>
+    <string name="_24">24</string>
+    <string name="_32">32</string>
+    <string name="_48">48</string>
 </resources>

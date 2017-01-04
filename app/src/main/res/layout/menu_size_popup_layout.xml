@@ -14,8 +14,8 @@
         android:gravity="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
         android:textColor="#FFFFFF"
-        android:textOff="10"
-        android:textOn="10"/>
+        android:textOff="@string/_10"
+        android:textOn="@string/_10"/>
 
     <ToggleButton
         android:id="@+id/size_fourteen"
@@ -27,8 +27,8 @@
         android:gravity="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
         android:textColor="#FFFFFF"
-        android:textOff="14"
-        android:textOn="14"/>
+        android:textOff="@string/_14"
+        android:textOn="@string/_14"/>
 
     <ToggleButton
         android:id="@+id/size_sixteen"
@@ -40,8 +40,8 @@
         android:gravity="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
         android:textColor="#FFFFFF"
-        android:textOff="16"
-        android:textOn="16"/>
+        android:textOff="@string/_16"
+        android:textOn="@string/_16"/>
 
     <ToggleButton
         android:id="@+id/size_eighteen"
@@ -53,8 +53,8 @@
         android:gravity="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
         android:textColor="#FFFFFF"
-        android:textOff="18"
-        android:textOn="18"/>
+        android:textOff="@string/_18"
+        android:textOn="@string/_18"/>
 
     <ToggleButton
         android:id="@+id/size_twenty_four"
@@ -66,8 +66,8 @@
         android:gravity="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
         android:textColor="#FFFFFF"
-        android:textOff="24"
-        android:textOn="24"/>
+        android:textOff="@string/_24"
+        android:textOn="@string/_24"/>
 
     <ToggleButton
         android:id="@+id/size_thirty_two"
@@ -79,8 +79,8 @@
         android:gravity="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
         android:textColor="#FFFFFF"
-        android:textOff="32"
-        android:textOn="32"/>
+        android:textOff="@string/_32"
+        android:textOn="@string/_32"/>
 
     <ToggleButton
         android:id="@+id/size_forty_eight"
@@ -92,6 +92,6 @@
         android:gravity="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Inverse"
         android:textColor="#FFFFFF"
-        android:textOff="48"
-        android:textOn="48"/>
+        android:textOff="@string/_48"
+        android:textOn="@string/_48"/>
 </LinearLayout>

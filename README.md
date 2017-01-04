@@ -1,6 +1,8 @@
-[![eBay Open Source](https://raw.githubusercontent.com/raptorjs/optimizer/ba5b56a3361f95d4ab6be5d6a6d53590315c3428/images/ebay.png)](https://github.com/eBay/)
-
 # Mildly Rich Text Editor (mRTE) for Android
+[![Build Status](https://travis-ci.org/eBay/Mildly-Rich-Text-Editor.svg?branch=master)](https://travis-ci.org/eBay/Mildly-Rich-Text-Editor) [![license](https://img.shields.io/badge/license-apache2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)  
+
+
+[![eBay Open Source](https://raw.githubusercontent.com/raptorjs/optimizer/ba5b56a3361f95d4ab6be5d6a6d53590315c3428/images/ebay.png)](https://github.com/eBay/) 
 
 ## Introduction
 **Mildly Rich Text Editor (mRTE)** is a library providing rich text capability for your Android

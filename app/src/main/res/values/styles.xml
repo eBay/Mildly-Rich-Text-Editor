@@ -27,8 +27,8 @@
     </style>
 
     <style name="EditorToolbarButton.ToggleButton">
-        <item name="android:textOff"></item>
-        <item name="android:textOn"></item>
+        <item name="android:textOff"/>
+        <item name="android:textOn"/>
     </style>
 
     <style name="EditorToolbarButton.LeftMostButton">
