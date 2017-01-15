@@ -596,8 +596,7 @@ public class MildlyRichTextEditor extends AppCompatEditText
          */
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-            if (after == 0) //delete
-            {
+            if (after == 0) { //delete
                 isDeletion = true;
                 Editable e = MildlyRichTextEditor.this.getText();
                 this.prevStyles = e.getSpans(start, start + count, CharacterStyle.class);
@@ -642,9 +641,11 @@ public class MildlyRichTextEditor extends AppCompatEditText
                         spanStart = e.getSpanStart(currentBoldSpan);
                         newSpanEnd = e.getSpanEnd(currentBoldSpan) - 1;
                         e.removeSpan(currentBoldSpan);
-                        if (spanStart <= newSpanEnd)
+                        if (spanStart <= newSpanEnd) {
                             e.setSpan(new StyleSpan(Typeface.BOLD), spanStart, newSpanEnd,
                                     Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
+                        } else
+                            boldButton.setChecked(false);
                     }
 
                     if (currentItalicSpan != null) {
@@ -654,6 +655,8 @@ public class MildlyRichTextEditor extends AppCompatEditText
                         if (spanStart <= newSpanEnd)
                             e.setSpan(new StyleSpan(Typeface.ITALIC), spanStart, newSpanEnd,
                                     Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
+                        else
+                            italicsButton.setChecked(false);
                     }
 
                     if (currentUnderlineSpan != null) {
@@ -663,6 +666,8 @@ public class MildlyRichTextEditor extends AppCompatEditText
                         if (spanStart <= newSpanEnd)
                             e.setSpan(new UnderlineSpan(), spanStart, newSpanEnd,
                                     Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
+                        else
+                            underlineButton.setChecked(false);
                     }
 
                     if (appliedSizeSpan != null) {
