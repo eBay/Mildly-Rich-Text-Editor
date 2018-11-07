@@ -40,7 +40,6 @@ captures/
 .idea/tasks.xml
 .idea/libraries
 .idea/caches
-.idea/codeStyles
 
 # Keystore files
 *.jks
